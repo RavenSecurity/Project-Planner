@@ -133,3 +133,8 @@ if(collection) {
   ];
   updateTask(collection, 1)
 };
+
+// function darkmode() {
+//   let element = document.body;
+//   element.classList.add("dark-mode");
+// } 

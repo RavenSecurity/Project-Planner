@@ -18,7 +18,7 @@ header {
     height: 15vh;
 }
 
-.darkmode {
+.darkmodeBtn {
     height: 4vh
 }
 
@@ -227,3 +227,7 @@ header {
 .reinit:hover {
     background-color: #ed5050;
 }
+
+/* .darkmode {
+    background-color: #7c7c7c;
+} */
