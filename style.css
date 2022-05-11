@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    margin: 41px;
+    padding: 0;
+    background-color: #F0F0F0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 15vh;
+}
+
+.darkmode {
+    height: 4vh
+}
+
+/* TASK CREATION */
+
+.createtask {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.createtask form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.createtask form label {
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.createtask form input {
+    margin-right: 3rem;
+}
+
+.createtask input{
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+.createtask select{
+    padding: 10px
+}
+
+.taskname label {
+    font-size: 1rem;
+}
+
+.taskname input {
+    width: 35rem;
+}
+
+.taskdesc label {
+    font-size: 1rem;
+}
+
+.taskdesc input {
+    width: 35rem;
+}
+
+.taskdate {
+
+}
+
+.taskstatus {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.taskstatus label{
+    margin-right: -3rem;
+}
+
+.submit {
+    background-color: #92DF55;
+    font-size: rem;
+    border: none;
+    width: 10rem;
+    height: 2.7rem;
+    margin-top: 1.3rem;
+    margin-left: 4rem;
+}
+
+.submit:hover {
+    background-color: #a2ec65;
+}
+.taskdate,
+.taskstatus,
+.submit {
+}
+
+/* LIST OF TASKS */
+
+/* TASK */
+#tasktable {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 90vw;
+}
+
+#tasktable p {
+    background-color: #C4C4C4;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+/* TASK */
+#tasktable {
+    width: 90.9vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#taskheader button {
+    background-color: #393939;
+    border: none;
+    padding-top: 1.6rem;
+    background-size: 100%;
+    color: #fff;
+    font-size: 2rem;
+    text-align:left;
+    padding-left: 20px;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.8rem;
+}
+
+#taskheader button:first-child {
+    border-top-left-radius: 50px;
+    width: 20vw;
+}
+
+#taskheader button:first-child:hover{
+    background-color: #646464;
+    color: #55BEDF;
+}
+
+#taskheader button:nth-child(2) {
+    width: 50vw;
+}
+
+#taskheader button:nth-child(3) {
+    width: 10vw;
+}
+
+#taskheader button:nth-child(3):hover {
+    background-color: #646464;
+    color: #55BEDF;
+}
+
+#taskheader button:last-child {
+    border-top-right-radius: 50px;
+    width: 10vw;
+}
+
+#taskheader button:last-child:hover {
+    background-color: #646464;
+    color: #55BEDF;
+}
+
+#taskheader button.selected {
+    background-color: #646464;
+    color: #55BEDF;
+}
+
+#tasklist div {
+    display: flex;
+}
+
+#tasklist p:first-child {
+    width: 19vw;
+}
+#tasklist p:nth-child(2) {
+    width: 50vw;
+}
+#tasklist p:nth-child(3) {
+    width: 8vw;
+}
+#tasklist p:last-child {
+    width: 9vw;
+}
+
+/* FILTER BUTTONS */
+#buttons {
+    display: flex;
+    justify-content: center;
+    
+}
+.todo {
+    width: 23vw;
+    border-style: none;
+    background-color: #55BEDF;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.todo:hover {
+    background-color: #6ad5f6;
+}
+
+.reinit {
+    width: 23vw;
+    margin-left: 10px;
+    border-style: none;
+    background-color: #D34040;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.reinit:hover {
+    background-color: #ed5050;
+}
